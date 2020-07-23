@@ -23,4 +23,20 @@
         app:layout_constraintLeft_toRightOf="@+id/btn_day01"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btn_day03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day03"
+        app:layout_constraintLeft_toRightOf="@+id/btn_day02"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_day04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day04"
+        app:layout_constraintLeft_toRightOf="@+id/btn_day03"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
