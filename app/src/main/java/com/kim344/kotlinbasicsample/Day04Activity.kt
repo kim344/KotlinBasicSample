@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 class Day04Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_day04)
+        setContentView(R.layout.activity_none)
 
         AAA().aaa()
         BBB().aaa()

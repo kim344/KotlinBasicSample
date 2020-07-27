@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 class Day03Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_day03)
+        setContentView(R.layout.activity_none)
 
         val person = Person("일길동",21)
         val person2 = Person2("이길동",22)

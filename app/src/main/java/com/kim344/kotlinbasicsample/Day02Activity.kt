@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 class Day02Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_day02)
+        setContentView(R.layout.activity_none)
 
         // 매개변수 Exam
         println(getAvg(45, 65, true))
