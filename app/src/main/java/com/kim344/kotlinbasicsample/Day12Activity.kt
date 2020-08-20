@@ -27,53 +27,55 @@ class Day12Activity : AppCompatActivity() {
         val shape5 = Shape(width = 50,x = 1,height = 50,y = 1)
 
     }
+
+    class Sample(id: String) {
+
+        var id: String = ""
+
+        init {
+            this.id = id
+        }
+
+    }
+
+    class Boy() {
+        constructor(id: String) : this() {
+            println(id)
+        }
+
+        constructor(id: String, age: Int) : this() {
+            println(id)
+        }
+
+        constructor(id: String, age: Int, no: Int) : this() {
+            println(id)
+        }
+    }
+
+    class Shape() {
+        var x: Int = 0
+        var y: Int = 0
+        var width: Int = 0
+        var height: Int = 0
+
+        constructor(x: Int, y: Int) : this() {
+            this.x = x
+            this.y = y
+        }
+
+        constructor(x: Int, y: Int, width: Int) : this() {
+            this.x = x
+            this.y = y
+            this.width = width
+        }
+
+        constructor(x: Int, y: Int, width: Int, height: Int) : this() {
+            this.x = x
+            this.y = y
+            this.width = width
+            this.height = height
+        }
+    }
 }
 
-class Sample(id: String) {
 
-    var id: String = ""
-
-    init {
-        this.id = id
-    }
-
-}
-
-class Boy() {
-    constructor(id: String) : this() {
-        println(id)
-    }
-
-    constructor(id: String, age: Int) : this() {
-        println(id)
-    }
-
-    constructor(id: String, age: Int, no: Int) : this() {
-        println(id)
-    }
-}
-
-class Shape() {
-    var x: Int = 0
-    var y: Int = 0
-    var width: Int = 0
-    var height: Int = 0
-
-    constructor(x: Int, y: Int) : this() {
-        this.x = x
-        this.y = y
-    }
-
-    constructor(x: Int, y: Int, width: Int) : this() {
-        this.x = x
-        this.y = y
-        this.width = width
-    }
-
-    constructor(x: Int, y: Int, width: Int, height: Int) : this() {
-        this.x = x
-        this.y = y
-        this.width = width
-        this.height = height
-    }
-}
