@@ -8,8 +8,8 @@ class Day19Activity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_none)
 
-        twoAndThree{a,b -> a+b}
-        twoAndThree{a,b -> a*b}
+        twoAndThree(10) { a, b -> a + b }
+        twoAndThree(50){a,b -> a*b}
 
         val ex1 : (String) -> Unit = { str : String ->
             println("$str ex1 람다함수")
@@ -29,9 +29,9 @@ class Day19Activity : AppCompatActivity(){
         returnString(ex3)
     }
 
-    private fun twoAndThree(operation : (Int, Int) -> Int){
+    private fun twoAndThree(a : Int,operation : (Int, Int) -> Int){
         val result = operation(1,2)
-        println("result $result")
+        println("result ${a + result}")
     }
 
     private fun higherFunc( hf : (String) -> Unit){
